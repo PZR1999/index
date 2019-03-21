@@ -699,6 +699,9 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
   h1 a.navbar-brand {
     font-size: 24px;
   }
+  .tm-mb-45{
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -718,6 +721,10 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
   .tm-section-3-left { padding: 70px 80px 80px 80px; }
   .tm-gallery-container { max-width: 350px; }
   .tm-contact-left-inner { width: 70%;}
+
+  .tm-mb-45{
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 420px) {

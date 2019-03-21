@@ -195,7 +195,7 @@ ul.navbar-nav.nav-fill {
 }
 .navbar-nav li{
   background-color: #f0768a6e;
-  border-radius: 35%;
+  /* border-radius: 8%; */
   margin: 0 5px;
 }
 .navbar-light .navbar-nav .active>.nav-link,
