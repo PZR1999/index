@@ -1,0 +1,242 @@
+.navbar-brand>img{
+
+    margin-left: 100px;
+}
+.container-fluid{
+    background: white;
+}
+.nav>li{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.container-fluid .home-page:hover{
+    color: #2DAE36;
+}
+/* 轮播 */
+.content{
+    cursor: pointer;
+    position: relative;
+    width:1920px;height:500px;
+    border:1px solid #333;
+    margin-top: -20px;
+    max-width:100%;
+    height: auto;
+}
+#list{
+    position: absolute;
+    width:1920px;
+    height:500px;
+    max-width:100%;
+    height: auto;
+}
+#list img,#prev,#next,#btns{
+    position: absolute;
+}
+#list img:not(:first-child){
+    display: none;
+}
+#prev,#next{
+    cursor: pointer;
+    top:50%;transform: translateY(-50%);
+    z-index: 100;width:40px;height:70px;
+    background:url("../images/icon-slides.png");
+    border:none;
+    
+    /* position: absolute; */
+    margin-top: 15%;
+    margin-bottom: 85%;
+    
+}
+#prev{
+    background-position-x:-86px
+}
+#prev:hover{
+    background-position: 0;
+}
+#next:hover{background-position-x: -43px}
+#next{
+    right:0;
+    background-position-x:-125px;
+}
+/* #btns{z-index: 101;
+    transform: translateX(-50%);
+    bottom: 20px;left:50%;
+}
+#btns .current{
+    background:rgb(89, 233, 132);
+}    
+#btns>span{
+    cursor: pointer;
+    width:20px;
+    height:20px;
+    display: inline-block;
+    border-radius: 50%;
+    border:1px solid #fff;
+    background-color:rgba(44,44,44,.3);
+} */
+.content #list>img{
+    max-width:100%;
+    height: auto;  
+}
+/* 轮播结束 */
+.row-second{
+    width: 100%;
+    height: 200px;
+    margin-top: 30%;
+    max-width: 100%;
+}
+.row-first{
+margin-left: 10%;
+}
+.title{
+    margin-left: 44%;
+}
+.navbar-text{
+    font-size: 25px;
+} 
+.quality{
+    display: block;
+    margin-left: 7%;
+    font-size: 20px;
+    color: #2DAE36;
+}
+.pingzhi{
+     width: 100px;
+    height: 100px;
+}
+.brand{
+    margin-left: -7%;
+}
+.insist{
+    margin-left: -17%;
+}
+.science{
+    margin-left: -3%;
+}
+.sincerity{
+    margin-left: -4%;
+}
+.win-win{
+    margin-left: -4%;
+}
+.product{
+    margin-left: 10%;
+    width:100px;
+    height: 40px;
+    background: #2DAE36;
+    color: white;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius:30%; 
+    position: relative;
+    
+}
+.product>p{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.row-third{
+    margin-top: 13%;
+    margin-left: -5%;
+}
+.line-first{
+    height: 1px;
+    background: #2DAE36;
+    width: 82%;
+    margin-left: 10%;
+}
+.row-four{
+    margin-left: 5%;
+    margin-right: 6%;
+    margin-top:18%;
+}
+.row-four>div>img,.row-five>div>img{
+    width: 490px;
+    height: 372px;
+    margin: 10px 10px;
+    max-width: 100%;
+    height: auto;
+}
+.row-five{
+    margin-top:41%;
+    margin-left: 5%;
+    margin-right: 6%;
+}
+.bottom{
+    width: 100%;
+    height: 100%;
+    background: #dddddd;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    margin-top: 65%;
+   
+}
+.row-six{
+
+    margin-left: 13%;
+    margin-top: 40px;
+}
+.row-six img{
+    width: 100px;
+    height: 70px;
+}
+.row-six>div{
+    color: #777777;
+}
+
+/* 关于公司 */
+.aboutus_banner{
+    max-width: 100%;
+    height: auto;
+}
+.line-second{
+    width: 150px;
+    height: 50px;
+    background: #2DAE36;
+    margin-top: 1%;
+    margin-left: 10%;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    color: white; 
+}
+.line-second p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px
+}
+.line-four{
+    height: 1px;
+    background: #2DAE36;
+    width: 1250%;
+    margin-left: 10%;
+    margin-top: 20%；
+}
+.row-seven{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.row-seven>div{
+    width: 730px;
+    height: 400px;
+    max-width: 100%;
+    height: auto;
+    /* background: red; */
+}
+.row-seven img{
+    max-width: 100%;
+    height: auto;
+}
+.row-seven p{
+    margin-left: 30px;
+    text-indent: 29px;
+    font-size: 15px;
+}
+.bottom-first{
+    width: 100%;
+    height: 200px;
+    background: #dddddd;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    margin-top: 30%;
+   
+}
