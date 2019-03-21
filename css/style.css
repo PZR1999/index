@@ -132,7 +132,7 @@ ul li {
 .sub-head h4,
 .contact-list-grid h6 {
   font-size: 22px;
-  color: #4292ec;
+  color: #ee827c;
   text-transform: capitalize;
   font-weight: 600;
 }
@@ -147,11 +147,11 @@ ul li {
 
 .header-outs {
   position: relative;
-  background: url(../images/樱花树.jpg) no-repeat 0px 0px;
-  /* -webkit-background-size: cover;
+  background: url(../images/樱花街道.jpg) no-repeat 0px 0px;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  -ms-background-size: cover; */
+  -ms-background-size: cover;
   min-height: 800px;
 }
 
@@ -193,31 +193,35 @@ nav.navbar.navbar-expand-lg.navbar-light {
 ul.navbar-nav.nav-fill {
   width: 100%;
 }
-
+.navbar-nav li{
+  background-color: #f0768a6e;
+  border-radius: 35%;
+  margin: 0 5px;
+}
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link,
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #f5b1aa;
+  color: #c97586;
   background: transparent;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #745399;
-  font-size: 14px;
+  color: #fff;
+  font-size: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-weight: 600;
-  margin: 0px 4px;
-  padding: 12px 17px;
+  font-weight: 800;
+  margin: 0px 2px;
+  padding: 2px 8px;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'stcaiyun', sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -683,11 +687,11 @@ ul.short_ls li {
   height: 9px;
   border-radius: 50px;
   margin: 0px 7px;
-  background-color: rgb(0, 0, 0);
+  background-color: #f6bfbc;
 }
 
 .carousel-indicators .active {
-  background-color: #ffa2df;
+  background-color: #ee827c;
   cursor: pointer;
 }
 
@@ -697,8 +701,8 @@ ul.short_ls li {
 
 .clients-color {
   padding: 20px;
-  background: #ffa2df;
-  box-shadow: -1px -1px 6px black;
+  background: #f5b1aa;
+  box-shadow: -1px -1px 6px rgb(138, 96, 103);
 }
 
 .news-date ul li a {
@@ -732,7 +736,7 @@ ul.short_ls li {
 .grid figure {
   position: relative;
   overflow: hidden;
-  background: #3085a3;
+  background: red;
   text-align: center;
   cursor: pointer;
   margin: 0 0 0em;
@@ -816,7 +820,7 @@ ul.short_ls li {
 /*-----------------*/
 
 figure.effect-selena {
-  background: #4292ec;
+  background: #ee827c;
 }
 
 figure.effect-selena img {
@@ -1129,6 +1133,7 @@ select.form-control:not([size]):not([multiple]) {
 
 footer {
   background: #ee827c;
+  margin-top: 100px;
 }
 
 .groom-w3layouts-footer img {
@@ -1153,7 +1158,7 @@ footer {
   background: #ffffff;
   border-radius: 50px;
   margin: 0px 12px;
-  color: #ffa2df;
+  color: #f4b3c2;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
@@ -1162,10 +1167,10 @@ footer {
 
 .icons-footer ul li a span:hover,
 .contact-list-grid p a:hover {
-  color: #4292ec;
+  color: #a69abd;
 }
 
-footer p {
+/* footer p {
   font-size: 14px;
   color: #000;
   letter-spacing: 2px;
@@ -1178,7 +1183,7 @@ footer p a {
 
 footer p a:hover {
   color: rgb(255, 255, 255);
-}
+} */
 
 
 /*--// footer--*/
@@ -1250,7 +1255,7 @@ footer p a:hover {
     font-size: 58px;
     line-height: 73px;
   }
-  .blog-txt-info h4 a,
+  .blog-txt-info h4 a
   .clients-w3layouts-txt h4,
   .time-agile-title h3,
   .groom-bride-grid h4,
@@ -1258,7 +1263,7 @@ footer p a:hover {
   .sub-head h4,
   .contact-list-grid h6 {
     font-size: 20px;
-    color: #4292ec;
+    color: #ee827c;
     text-transform: capitalize;
     font-weight: 600;
   }
